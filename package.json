@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [qrcode-reader (v0.2.2)](https://github.com/edi9999/jsqrcode)  [![npm package](https://img.shields.io/npm/v/npmtest-qrcode-reader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-qrcode-reader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-qrcode-reader.svg)](https://travis-ci.org/npmtest/node-npmtest-qrcode-reader)",
+    "description": "#### basic test coverage for  [qrcode-reader (v0.2.2)](https://github.com/edi9999/jsqrcode)  [![npm package](https://img.shields.io/npm/v/npmtest-qrcode-reader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-qrcode-reader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-qrcode-reader.svg)](https://travis-ci.org/npmtest/node-npmtest-qrcode-reader)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "qrcode-reader": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
